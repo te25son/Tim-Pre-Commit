@@ -1,0 +1,17 @@
+[project]
+name = "tim-pre-commit"
+version = "0.0.0"
+dependencies = [
+    "ruff==0.3.5",
+]
+
+[tool.ruff]
+line-length = 100
+fix = true
+
+[tool.ruff.lint]
+select = ["ALL"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
