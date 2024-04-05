@@ -1,7 +1,7 @@
 - id: ruff
   name: ruff
   description: "Run 'ruff' with default config"
-  entry: ruff --config  ./pyproject.toml
+  entry: ruff check --config ./pyproject.toml
   language: python
   types_or: [python]
   args: []
